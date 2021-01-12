@@ -3,9 +3,9 @@ import initialState from '../initialState';
 import Products from './Products';
 
 const Home = () => {
-    return (
-        <Products products={initialState.products} />
-    );
+  return (
+    <Products products={initialState.products} />
+  );
 }
 
 export default Home;
